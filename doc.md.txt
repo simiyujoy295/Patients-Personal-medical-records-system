@@ -1,0 +1,394 @@
+ 
+KABARAK UNIVERSITY
+SCHOOL OF COMPUTER SCIENCE, ENGINEERING AND TECHNOLOGY
+DEPARTMENT OF COMPUTER SCIENCE AND IT
+
+PROJECT REPORT.
+
+PROJECT PROPOSAL TITLE:  Development and implementation of an android Personal Patient’s Electronic Medical Records system.
+
+A Project Report Documentation Submitted in The Department of Computer Science and IT in partial fulfilment of the degree of Computer Science.
+
+SIMIYU JOY ABIGAEL-CS/MG/1488/09/17
+
+
+
+
+
+
+
+STATEMENT OF ORIGINALITY.
+ 
+This is to certify that to the best of my knowledge; the content of this project is my own work. This project has not been submitted for any degree or other purposes. 
+ We certify that the intellectual content of this project is the product of our own work and that all the assistance received in preparing this thesis and sources have been acknowledged. 
+  
+ Student: SIMIYU JOY ABIGAEL			Supervisor:  CLEOPHAS MOCHOGE
+   	 
+Signature: ……………………...... 	 		 Signature: ………………….... 
+
+Date: ……………………………... 			 Date: ………………………. 
+
+
+ACKNOWLEDGMENT
+
+ I would like to pay special regards to the efforts taken and put in by many different individuals and I in this research project. It would not have been possible without the support and help I have received and for that I would like to extend my gratitude to them all.
+I am highly indebted to the School of Computer Science and Bioinformatics for their guidance and constant supervision as well as for providing necessary information regarding the proposal and for their support in completing the proposal. 
+I wish to thank all the people whose assistance was a milestone in the completion of this project for your great advice for my study proved monumental towards the success of this study.
+
+
+
+THE ABSTRACT
+An electronic medical records software is a system that automates the documentation, storage and retrieval of patient records. Its main aim is to provide patients in health centres with a secure, accurate, dependable and mobile access to their medical records thus preventing and addressing problems like missing, inaccurate or illegible patient’s information and data. The system is able to store patients records which can include diagnosis given at different times, treatment and medicine dispensed, lab tests requested and done among others. This system requires a registered username and password to log in and view the patient’s medical history which can be shared with medical personnel like doctors. Information stored is secure and protected for personal use as unauthorized users cannot access information of a particular person without the login details. This ensures secure systems which store critical data thus ensuring good health care services for patients and they too can keep track of their health care without necessarily having medical knowledge. The method used to gather information on the problem statement and need of this research is interviews, questioners dispensed to several different people, observation and reports among many.  The expectation is to have a mobile system that is easy to use and available to anyone which serves the purpose of ensuring good and accurate health care to anyone in need. The findings showed that this system proved to be necessary as it enabled patients to safely store their records and have easy access to them. It also enabled easy communication with the medical personnel involved. It’s concluded that it is an easy to use and adaptable system that meets its intended objectives. Although the majority of personal health record systems’ development takes place in the private sector, it can be encouraged in the near future to involve the government or major health organizations in designing, implementing, and regulating the PHRs given its valid involvement in emergency preparedness and response efforts in both regional, and local levels.  An administrator to the system is responsible for making sure the system is functioning as required. The system can support multiple programming languages including C#, C++, MYSQL, Java and PHP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER ONE
+INTRODUCTION
+
+1.1 INTRODUCTION
+With the development, growth and implementation of technology in different aspects of the world comes new systems and software aimed at bettering the day-to-day life of man. In this case, the medical world is no exception. The systems developed and used in the medical and health field create a platform which supports the new vision of health services that enable medical personnel to keep record of and track information and data that is important to the hospital as the caregivers. Such information includes patient records, drugs and medicine administration among many. This however has a limitation of being available and open only to the hospital administrators involved directly with a patient. 
+
+This personal patient’s electronic medical records software is a mobile application that is a portable and secure system which automates the documentation, storage and retrieval of patient records. This system is designed to store all the details of a patient which can include given diagnosis, the symptoms from which the diagnosis was given, medication administered with specific dosage and tests done. it is accessible to the patient involved directly.
+This software is intended to solve the problem faced by non-medical personnel which makes up most of the patients of not being able to keep accurate, efficient and relevant information on their medical issues and history and the treatment of it thereafter. It is designed with the aim of empowering the patients thus ensuring good health care and services. With this system, a patient is able to have properly stored and secured medical details of both the past and the present treatments and be able to access it anywhere anytime thus avoiding lost or incorrect information on one's health. The system can be entered using a username and a password and is accessible to registered hospital's administrations. It will also involve a user-friendly interface, protection for personal use and easy and fast data processing.
+
+1.2. Background of the study.
+Modern healthcare infrastructures have over time been digitalized and utilized in many different health facilities all around the world. These systems are responsible for collecting, storing, and managing various clinical operations like medication, patients’ records. This information is generated daily in several health care facilities hence the need for implementing these systems that aid in ensuring effectiveness, safety and efficiency of the health care provided and thereafter the systems being used.
+Before the 1960s, all medical records were kept on paper and in manual filing systems which with time proved hectic and inefficient due to issues like loss of files or misplacement of particular records within the filing systems. Based on the need to solve this issue, the Electronic health records systems (EHRs) has since been developed by Lockheed in mid-1960s who started with creating a clinical information system which then grew and developed to the different versions and personalization of this system that is now commonly used. Other technology and engineering companies also started developing electronic medical records systems for hospitals and other institutions like schools. By the 1980s, more efforts were made to increase the use of EHR among medical practices.
+The Institute of Medicine (IoM) carried out a study of paper record usage in the mid-1980s which confirmed that the use of the Electrical Health Record systems improved the keeping of patient records thus urging the proposal of converting paper to electronic records.in the health care institutions today, this system has proven to be of great value in ensuring the safe keeping of patients records.
+
+
+1.2.1 Limitations of the existing systems.
+Despite the existing systems being safe, secure and with the ability to keep up to date information on patients records and services given, data that is critical to one’s continual treatment and care still gets lost, misplaced or misdirected due to the massive volumes of data kept in a health centre or hospital. Systems, especially those that manage large volumes of data stand a risk of failing or crashing hence losing important records critical to patients undergoing treatment. In some hospitals, their systems can only accommodate part of a patient’s records leaving out other information like medication prescribed hence risking inefficient care of the patient in the long run.
+1.3 Problem statement.
+Missing, illegible, inaccurate and inefficient storing of patients records and data. As it is for many people, lack of knowledge brings about the possibility of destruction. This can be related just as well to the medical field where most if not all patients which makes up most of the population in the field as the targeted group lack the medical knowledge known to medical personnel. However, this cannot be subjected to being of their own will. Due to this, a lot of discrepancies are brought about as mentioned above. The lack of understanding of critical medical terms and knowledge leads to a miss-track of a patients records and medical history. For the case where it is stored in the institutions concerned, it can be due to the massive volumes of patient records and medical personnel data stored in institutions concerned which in turn leads to poor health services for patients.
+
+
+1.4.1 Main objective of the study.
+The main objective for this project proposal is to design a system that will solve the problem faced by patients of not being able to keep and access accurate, efficient and relevant information on their medical issues and history and the treatment of it thereafter.
+
+1.4.2 Specific objectives.
+I. To examine the problem of missing, inaccurate and ineligible patient’s records affecting several medical institutions and their patients thereafter.
+II.	To analyze the problem examined which causes communication and coordination barriers between patients and medical practitioners through the unclear records available in the medical systems. 
+III.	To create a safe, efficient and easy to use system that enables patients to personally store their medical records.
+
+IV.	To design a system that can be accessed anywhere through an android device by a patient and shared with personnel concerned.
+
+1.5 Scope of the study.
+This study was carried out in the medical clinics and centres around the Elgon View area, Eldoret. It will be centred on a sample of the residential population which includes both patients, possible patients and medical personnel. The research is open to anyone within the stated confinement that has had any experience in the medical field and will include holding interviews and passing out questioners as a way of collecting relevant data.   
+
+1.6 Justification.
+•	The implementation of a system like this improves health care, both on the side of the patient receiving the care and the medical personnel giving the care.
+•	 For the patient involved, the availability of this system allows him/her to keep track of and record every procedure, medicine given and treatment given without the limitation of one hospital that holds the records of particular visit. This allows easy treatment even with a change in environment, change town or country of residence, change in doctor or hospital in general and also when travelling.
+•	For the medical personnel involved which can include doctors, nurses, specialists among many, they are able to give proper and efficient care to a patient because of being able to view, go through and understand the medical history in terms of previous treatments, diagnosis, medication given and procedures done. they are able to also get contact information of the doctors involved in a patient past in order to get more clarity on the treatment done and best course of treatment for future.  
+•	This system will in the long run reduce a lot of errors and misguidance given to patients due to lack of prior knowledge and understanding on a patient’s condition.
+
+
+
+
+
+
+CHAPTER TWO
+LITERATURE REVIEW
+
+2.1 INTRODUCTION
+
+An electronic health record (EHR) system is a system that is responsible for collecting patient data from all healthcare providers. Large amounts of information are produced by any health care professional who is involved in the care of a patient and in decision-making related to the patient. This chapter looks at and acknowledges the history and the detailed facts about the patient electronic medical records system performed by previous scholars and researchers.
+
+2.2 REVIEW OF RELATED RESEARCH
+Clinical information is entered into a health care records of the particular patient in the hospital system and it is usually stored in an EMR (Electronic Medical Record) system. Patient information can be entered into a patient record system in the form of text or in a structured format. The structuring methods involve documentation standards, forms, classifications, terminologies, ontologies among many. The structures can be used in entering patient information, processing data and retrieving the data. This system is a digital version of a patient's paper chart containing a patient's medical history, diagnoses, medications, treatment plans, immunization dates, allergies, radiology images, and laboratory and test results. 
+New computer technology developed in the 1960s and 1970s and it laid the foundation for the development of the Electronic Heath Record (EHR). The use of EHRs has not only made patients’ medical information easier to read and available from almost any location in the world, but also changed the format of health records, and thus changed health care. 
+A case study and research done between the time period a year (Shimada S, Nazi K, Gang L & Strudwick G, 2019-2020) aimed at showing the different functionalities and effectiveness of a patient’s health records system. This also brought to light the loops within the system that could possibly cause errors in the near future. Examples of this include standardization issues of patient-generated and developing methods or functions through which the system can analyse the patient’s data that’s been gathered and uploaded into the system. Data integrity was also another aspect of the system that was studied for with the aim of having it be a priority in the development and implementation of the system. 
+A research case study done on this subject matter showed that despite the development and use of these EHRs, for example the new Open MRS-based system called Afya (Swahili for ‘health’) Electronic Health Management System (AfyaEHMS) in Machakos County in Kenya, the traditional paper system is still being used and preferred over the electronic system(Paton C & Muinga M,2018) . This was brought about by the lack of complete change to using the electronic system since they both ran parallel to each other after installation. Due to this development, patients’ records are still at risk of missing, being inaccurately stored or being misplaced in either the paper system or the electronic system. (Doods J, Botteri F, Dugas M & Fritz F, 2014). The challenge was compounded by the feeling that the EHR was complex to use and health workers had not received adequate training. There were workflow challenges that made the EHR incompatible with the clinical workflow, making it difficult to use the system effectively. These issues have been well-reported in the literature as problems with implementing EHR system in all settings. These issues were credited to the lack of sufficient training on how to use the systems among many other issues.
+Over the years there has been an increase in the need and demand of patients to have access to their personal health records which has in turn led to the Electronic Health Records systems being personalized. (Lee PS, Jian WS & Kuo CH, 2009).  Personal Health Records (PHRs) are now developing with applications’ interfaces within EHRs and have now been adapted by several large medical facilities.  (Tavakoli N, Isfahani SS, Piri Z & Amini A, 2013) .Many patients are taking a more active role in managing their medical data which is essential for patient-centred care(Brophy S, Winkler E, Bergh B , Längst G, Eckrich F, Heinze O, Bergh B, Szecsenyi J, 2015). This allows patients to add personal notes on their medical life experience and events that enable clinicians to understand them better and even be aware of their personal health goals and care preferences (Cahill JE, Gilbert MR & Armstrong TS, 2014).
+ These recent reports have highlighted and more research work has shown the need for putting effort in bettering the understanding of the collection and use of this information to patients (Chen ES, Melton GB, Burdick TE, Rosenau PT, 2012). However, there is a knowledge gap (Greenhalgh T, Hinder S, Stramer K, Bratan T, Russell J on how the success of the development and utilization of personal patient’s health records (PHRs) (Almond H, Cummings E & Turner P ,2013). This is to the existing customized laws or procedures regarding patients’ access rights to Electronic Health Records (Tavakoli N, Isfahani SS, Piri Z & Amini A, 2013). This though brought out the possible challenge of the use of the patient’s health records systems which is that it may be challenging for some older adults or those of lower socioeconomic status. (Vaughon WL, Lee CC, Rockoff ML & Levy J, 2015).
+
+A research done by Yearbook of Informatics (2016) has shown that high-income or developed countries have adopted the use of the EHR system which has been stimulated by government schemes. This slowly expanded to the low-income countries through donor-funded programs that helped in the implementation and use of the electronic systems in several clinics distributed all over a country.
+As it was before the development and vast growth of technology and before its implementation into the medical world, medical records, medical charts, and health records were the different terms used to describe the documentation of patients’ medical history and care.( R. S. Evans, 2016)
+
+2.2 THEORITICAL FRAMEWORK
+This is a system that is expected to provide an easy to use and available system that is available to anyone. It serves the purpose of ensuring good and accurate health care to anyone in need. It is a system with minimal errors and guaranteed security to information or data that is entered into it. It is a mobile system that is accessed on an android phone as an installed application that has the feature of requesting log in information to avoid unauthorized users from accessing it. It then has a portal that presents the options of checking previously stored information or of adding new information. This information ranges from a patients’ diagnosis to specific drugs administered and involves the record of the specific hospital or clinic involved in the treatment of the specific patient. With this, any medical personnel who is participating in the treatment of a patient can have underlying information concerning the health of the patient and an accurate account of the patient’s history of procedures done like surgeries. 
+This system involves an option of uploading images which can be of x-rays done or of particular medicine given. This helps in avoiding the constant carrying of large and cumbersome envelopes with the x-ray images and different lab scans done as these documents are prone to getting lost or getting destroyed. This software will come in when records in a hospital are lost or missing since this is available to and is accessible by the patient too. This system will also aid in securely sharing electronic information with doctors and other clinicians thus helping in providing effective diagnosis to patients, reducing medical errors, and providing safer care. It will improve patient and provider interaction and communication, as well as health care convenience.
+
+
+
+
+
+
+
+
+
+
+Preview of system architecture
+
+
+
+2.3 IDENTIFICATION OF KNOWLEDGE GAP
+ For most of the existing electronic medical records systems, they are confined to the hospitals and medical centres concerned. A patient at hand is usually mostly at the mercy of whatever directive given by the personnel concerned. Because of this, patients who change living locations or desire to seek more opinions find it hard to do so due to little to no understanding or written review of their conditions. It is inaccessible to them since its mostly kept within the location of treatment. It is also prone to anything that can affect the hospitals systems like the malfunctioning of their systems which can cause the loss of that data or simply having the information misplaced in the midst of the bulky information stored. 
+
+CHAPTER THREE
+METHODOLOGY
+
+3.1 RESEARCH METHODOLOGY
+This chapter involves the research aspects and techniques used. Its span is wider than the research method itself. It is what is adopted by researcher while undertaking their research from collecting the data to the analysing and conceptual implementation of the solution intended to be solved. Methodology gives a detailed account of the specific procedures or techniques used to identify, select, process, and analyse information about the research topic. It is a systematic procedure for a set of given activities as well as underlying rules and principles that control a system method. From this, it is understandable that the methods to be used in the study are inclusive of it. 
+In the software development life cycle, I  used waterfall model to come up with the patient’s Electronic Medical Records system. This method is appropriate because the requirements of the system are well defined and are not expected to change. It uses a clear structure and helps in determining the expected end goal early. There is limited time to develop the project and therefore other development methods might not be convenient. It specializes on a logical progression of steps as shown below.
+
+ 
+
+
+3.2 DATA COLLECTION
+I  used both primary and secondary methods of data collection to collect data for this project. For the primary method of data collection, I used interviews and observation as explained below. For the secondary data collection methods, I researched more on the internet on the problem statement and on the different possibilities on how the system intended on solving this problem can best be developed and implemented thereafter.
+
+3.2.1 INTERVIEWS
+This method involves a conversation between the interviewee and the respondents that entails a group of structured questions concerning the topic hand. It will involve asking well formulated questions for each interviewee to respond to. This will focus on the challenges the respondents faced when visiting a health centre or medical facility, past experiences with the handling of their health records and related problems. The targeted population is a select group of patients at the health clinic with an approximated number being a sample of fifty individuals.
+3.2.2 OBSERVATION
+This involves gathering information by taking a keen look at the phenomena or subject at hand and making relevant analysis based on the information collected. The targeted audience is a sample population of the patients in the health clinic. The result is positive since a lot of information is clear and open to a keen eye hence a lot of information can be gathered with good effect.
+
+
+
+
+
+
+
+
+3.3 CONTEXT DIAGRAM DIAGRAM
+
+
+
+
+                                         Get/view                    Update records
+                                              records
+
+                            Update data                                                Get data
+
+                        Get/view data                                            Update data
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.4 DATA FLOW DIAGRAM
+
+                                             Display data                                                  Update data
+
+                                      Retrieve information                                          Display data
+
+                                                          Request log in            Authentication                                
+                                                                                                                                                                     
+                                              Log in                                                                     Update data                    
+
+
+                                     Authentication of credentials
+                                                                                     Retrieve information
+
+
+
+
+3.5 SYSTEM REQUIREMENTS
+ 3.5.1 Hardware requirements
+•	Operating system	Android 4.2, Android 4.4.2, or Android 4.4.4
+•	Processor	Intel Atom® Processor Z2520 1.2 GHz, or faster processor
+•	Storage	Between 850 MB and 1.2 GB, depending on the language version
+•	RAM	Minimum of 512 MB, 2 GB is recommended
+•	Browser/Internet
+
+3.5.2 Software requirements
+•	Web server software
+• Database server software
+• Windows operating system
+• Microsoft visual studio (2019)
+• C# compiler
+
+3.6 Functional Requirements
+The system's functional requirements include: 
+• The system shall enable a user to create an account and login to the system.
+ • The system shall have a single predetermined administrator account that will be able to assess the performance of the system and generate reports.
+ • The system administrator shall have the ability to check the usage status of an activated account
+• The system shall allow the continuous input of data in the form of recorded notes or images and view it anywhere with the condition of an internet connection.
+ • A user shall be able to access stored information with the necessary knowledge on the encryption method used i.e. Log in information which is a username and a password.
+
+
+
+
+
+
+
+
+CHAPTER FOUR
+DATA ANALYSIS AND REPRESENTATION OF SYSTEM 
+4.0 INTRODUCTION
+This chapter presents the analysis and representation of data after its collection concerning the digital personal patients’ records system. It involves the results of the assessment and evaluation of the prototype of the system. In order to achieve this, the developed prototype is analyzed through the data collected the different methods of data collection employed. The results are then used to empirically evaluate the performance of the system. In this respect, multiple performance metrics are calculated and graphical representations are developed where needed to evaluate the performance of the prototype system.
+4.1 DATA ANALYSIS AND REPRESENTATION
+In order to accomplish the functionality of the personal patient’s records system, we carried out an analysis of the collected data. Different views and opinions were gathered and collected through the mentioned methods of data collection from the sampled population of the scope. These were then analysed and presented in various graphs below as per the responses received during data collection through the questions asked during the interviews and through observation.
+Q1. Have you ever experienced a problem with misplaced, lost or inaccurate medical records while seeking medical help in any medical institution?
+ 
+The evidence from this pie chart shows that from a sample population, 96% of the people stated that they have in fact experienced the problem of having their medical records misplaced, lost or having them inaccurately recorded while seeking medical help in any medical institution.
+
+Q2. What reason were you given for the missing or inaccurate records?
+ 
+The above pie chart highlights some of the reasons met by patients who experience the issue of having their medical records misplaced, lost or having them inaccurately recorded. These reasons include crashing of the records system which can be caused by technical issues or an overload of the database. This proved to be the most common reason given. The others include  misplacement of records which stood at 16%, mishandling of records which had 4% of the people concurring with it and poor storage mechanisms which had 1%.
+Q3. How was the handling of the situation?
+ 
+The evidence from this pie chart shows that from a sample population, 72% of the people had a dissatisfying experience with the handling of the situation. The other 20% had a somewhat dissatisfying experience. The remaining percentage of the population found it somewhat satisfying (6%) or very satisfying (2%). Therefore, the system showed a higher percentage of success due to the clear need for it by most of the patient’s population.
+
+Q4. If presented with a mobile application that enables you to easily store and retrieve your personal medical records, would you subscribe to it?
+ 
+The evidence from this pie chart shows that from a sample population, 96% of the people found that the system accomplished it’s intended purpose and had a high perform with little to no errors. The other 4% disagreed with this due to some technical issues encountered.
+
+Q5. What is your experience, if any with android mobile applications and their functionality?
+ 
+The evidence from the above pie chart shows that, 79% of the people found the functionality of the distinct features of the system to be very good. 16% of them found it to be good which can be amounted to commendable and acceptable while 4% found it fair. The remaining percentage of the population who found it to be poor make up only (1%) of the population. This shows that the system’s functionality and purpose got a good review as being receptive.
+4.2 SYSTEM DESIGN
+This section describes the design and functionality of the system and how the objectives of the study have been achieved and implemented in order to solve the problem at hand. It includes the user interface, the database design and the different modules. It also includes the description of how the system works with the entry of different input types.
+4.2.1 DATABASE DESIGN
+The database I used is firebase which is the server and API and the system’s datastore. It is a Google's mobile application development platform which allows secure access to the database directly from a client-side code. Data is persisted locally, and even while offline, realtime events continue to fire, giving the end user a responsive experience. It provided services like cloud firestore and real-time database and user authentication as shown below:
+Realtime database:
+ 
+ 
+Authentication of users/registration of new users:
+
+ 
+Cloud firestore:
+ 
+ 
+4.2.2 USER INTERFACE 
+LOGIN/REGISTRATION:
+This page launches upon installing/activating the system on an android device and will enable a user to sign into his/her account or a new user to register with the required credentials; Email and password.
+                                 
+HOME PAGE:
+This page launches upon logging in and involves a brief introductory message on how to use the system. It also shows the navigation-drawer menu with the different activities/pages.
+                                                      
+
+PROFILE:
+This page includes the user’s personal information like name, address and bio. It enables the access to and confirmation of a user’s identification and contact information.
+                                                                
+
+
+DASHBOARD PAGE
+This page is an activity that asks the user to input any important and current medical information like an underlying medical condition or medication that’s currently being taken which will offer this critical information in situations like emergencies where a patient would not be able to express it.
+ 
+NEW APPOINTMENTS PAGE
+Here, the patient can add new information about an appointment, view information on a previous appointment, edit information entered on a previous appointment or delete any information. This enables a user to easily keep track of medical information per appointment made like the doctor seen, the department visited or any procedure done.
+                    
+
+UPLOAD
+This page enables a user to select any information in the form of an image and upload it to the database of the system. It requires the user to select an image, name it and add a brief description of what it entails. It is then uploaded upon clicking the Upload button. It also involves a button that navigates to the list of uploaded images for viewing and deleting.
+                              
+
+
+NOTES PAGE
+This enables a user to input any other information that can either be a reminder or added information for later references.
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER FIVE
+DISCUSSION, RECOMMENDATION AND CONCLUSION
+5.0 INTRODUCTION
+This chapter provides the summary of the research, conclusions and recommendations of the study we sought to accomplish. It involves the review of the research question carried out, its impact and implications and how it has advanced past studies and contributed to the future studies in topics closely related to this. The conclusions in this chapter are based on the objectives of this study and the results achieved by the study. After making some conclusions, it is always a good thing to make some recommendations so as to help those who are going to do the research in the future.
+5.1 DISCUSSION
+This project helps to make it easier for patients to store their personal medical records and have easy and quick access to them through their personal smart and portable smartphones. It enables the accurate recording and keeping of their medical records from several different hospital visits which in turn helps in accurately tracking every vital information pertaining to their health. It enables quick and easy updates of appointment information like the doctor/specialist seen, the department visited or the medicine given which enables a user to accurately store up-to-date information on their hospital visits digitally. It works to reduce the cost of handling the issue of having missing or inaccurate records like having to repeat procedures, make several calls trying to track down some piece of medical information among others. This system can also be implemented by any and every person with the need to store and keep track of information concerning their hospital appointments and their health in general. It can also aid in offering information to doctors in follow-up appointments or when seeking a second-third opinion. It can therefore be confidently stated that this system aids in improving health care at large in both the medical personnel’s side and the patients’ side.
+5.2 RECOMMENDATION
+On the basis of the conclusions made by the study and development of this project, it is recommended that this android personal patients’ records system should be implemented upon futhure development as it is beneficial and necessary to every patient seeking medical attention of different degrees and to the health care system at large. Accurate, constant and consistent keeping of patients’ records is among the many processes that should be streamlined for better health care. Health care institutions should encourage their patients to take a personal step in keeping their records for complete avoidance of issues like lost or corrupted medical records. This will also enable easy access to a patient’s medical history. It will also help in emergency cases like when a patient cannot speak for themselves. It is therefore recommended that this system be a part of the health care system which with progressive updates can also involve an automatic insertion and deletion of a patient’s medical records from the medical institution concerned.
+5.3 LIMITATIONS OF THE STUDY
+The study faced a few challenges especially during the collection of data about the study. Most respondents were always busy with attending to patients or to their own medical needs in the hospital which could not be interrupted due to the obvious reasons.and some had to take the questionnaires so that they can bring back after a couple of days. These delays affected the schedule that had been designed for various research sections and generally affected the timeline.
+5.4 CONCLUSION
+The research was able to achieve the objectives it had by the implementation of digital personal patients’ records system that does solve the problem of missing, lost or inadequately stored medical records. It is concluded from the analysis, design, coding and testing of this system that it is an effective and easy-to- use system that meets the expectations. The system allows patients to login and view their medical records, enter new data and update already existing data. This system is therefore good and needs to be implemented because it solves the problems at hand. This is a solution that is needed the most because of its positive impact. The system has been made in a way that will allow extension in future to accommodate more things. The system also can be incorporated with the existing system easily because it is simple to use.
+
+
+
+
+
+
+REFERENCES
+Abrahamsson S, Bergstrom S, Larsson K, Tillman S. Danderyd Hospital computer system. II. Total regional system for medical care. Comput Biomed Res. 1970;3 01:30–46. [PubMed] [Google Scholar]
+American Academy of Family Physicians. 2006. An introduction to personal health records:  http://www.aafp.org/fpm/2006/0500/p57.html.
+Blecker S, Goldfeld K, Park N, et al. Electronic health record use, intensity of hospital care, and patient outcomes. Am J Med 2014;127:216–21. [PMC free article] [PubMed] [Google Scholar]
+Campanella P, Lovato E, Marone C, et al. The impact of electronic health records on healthcare quality: a systematic review and meta-analysis. Eur J Public Health 2015;26:60–4. [PubMed] [Google Scholar]
+Conn J. Modern Healthcare. 2013. Dec 14, [2014-02-25]. No longer a novelty, medical apps are increasingly valuable to clinicians and patients : http://www.modernhealthcare.com/article/20131214/MAGAZINE/312149983#.
+Deloitte Issue Brief. 2013. [2014-02-25]. The mobile personal health record: technology-enabled self-care:  http://www.deloitte.com/assets/Dcom-Mexico/Local%20Assets/Documents/mx(es-mx)Mobile%20Personal%20Health%20Record_2010.pdf.
+
+Evans R. Electronic health records: then, now, and in the future. Year Med Inform 2016;25: Suppl 1: S48–61. [PMC free article] [PubMed] [Google Scholar]
+Horan TA, Botts NE, Burkhard RJ. A multidimensional view of personal health systems for underserved populations. J Med Internet Res. 2010;12(3):e32. doi: 10.2196/jmir.1355:  http://www.jmir.org/2010/3/e32/ [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+ Lafky DB, Horan TA. Prospective personal health record use among different user groups: results of a multi-wave study. The 41st Hawaii International Conference on System Sciences; 2008; Hawaii. 2008. pp. 1–9. [CrossRef] [Google Scholar]
+Paton C, Hansen M, Fernandez-Luque L, Lau AY. Self-tracking, social media and personal health records for patient empowered self-care. Contribution of the IMIA Social Media Working Group. Yearb Med Inform. 2012;7(1):16–24. [PubMed] [Google Scholar]
+Links:
+https://www.researchgate.net/publication/11745338_Medical_records_and_electronic_documents_A_proposal
+https://perspectives.ahima.org/patient-accesstophi/
+https://europepmc.org/article/med/27199197
+https://europepmc.org/article/MED/17951106
+
+APPENDICES
+APPENDIX A: ACTIVITY SCHEDULE
+
+Activity	JUN	JUL	AUG	SEP	OCT
+Proposal	
+
+		
+Software 
+Requirement
+Specification
+					
+Coding and 
+Implementing
+		
+	
+
+Testing				
+
+Development
+and
+Presentation
+					
+
+
+
+APPENDIX B
+ BUDGET
+Device Name	Cost (Ksh each) 
+Laptop with LAN Connection	35000
+Internet access	500
+Printing papers	500
+
+
+APPENDIX C
+ INTERVIEW SUMMARY
+In the study, interview method will be used to collect data, find out different views from respondents about their experience with the subject matter, this system and their view on the need to make changes. The following are interview questions that will be used.
+Questions for interviewees
+I.	Have you ever experienced a problem with misplaced, lost or inaccurate medical records while seeking medical help in any medical institution?
+II.	What reason were you given for the missing or inaccurate records?
+III.	How was the situation handled? Was it satisfactory or not?
+IV.	If presented with a mobile application that enables you to store and easily retrieve your medical records, would you subscribe to it?
+V.	What is your experience, if any with android mobile applications and their functionality?
+
+
+
+
