@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="#2196F3"
+        android:text="Update Content Panel"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uimgurl"
+        android:hint="Image URL"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uname"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ucourse"
+        android:hint="Course"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="Date of Appointment"
+        android:id="@+id/udate"/>
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uemail"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/udiagnosis"
+        android:hint="Diagnosis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="Medicine given"
+        android:id="@+id/umed"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="Department visited"
+        android:id="@+id/udep"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="#2196F3"
+        android:text="Update"
+        android:layout_marginTop="10dp"
+        android:id="@+id/usubmit"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

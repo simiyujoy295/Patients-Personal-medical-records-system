@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@drawable/backdarkblue"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <include
+           layout="@layout/main_toolbar"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="160dp"
+           android:src="@drawable/hello"/>
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="60dp"
+           android:fontFamily="@font/alex_brush"
+           android:gravity="center"
+           android:text="Have an easy time keeping a record of your hospital appointments and documents with insta_health_assist. Explore the features we offer using the menu tab above. Enjoy. "
+           android:textColor="#0E0D0C"
+           android:textSize="40sp"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/logout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginBottom="0dp"
+           android:backgroundTint="#2196F3"
+           android:text="LOGOUT"
+           android:layout_gravity="center_horizontal"/>
+
+
+   </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    tools:context=".adddata" android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backblue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter new appointment details:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Name of hospital"
+        android:textSize="20sp"
+        android:id="@+id/add_name"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        android:hint="Name of doctor"
+        android:textSize="20sp"
+        android:id="@+id/add_course"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        android:hint="Date of Appointment"
+        android:textSize="20sp"
+        android:id="@+id/add_date"/>
+
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        android:hint="Procedures done"
+        android:textSize="20sp"
+        android:id="@+id/add_email"/>
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        android:hint="diagnosis"
+        android:textSize="20sp"
+        android:id="@+id/add_diagnosis"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:hint="medicine_given"
+        android:textSize="20sp"
+        android:id="@+id/add_med"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:hint="department_visited"
+        android:textSize="20sp"
+        android:id="@+id/add_dep"
+        android:layout_marginBottom="15dp"/>
+
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        android:hint="profile_image_url"
+        android:textSize="20sp"
+        android:id="@+id/add_purl"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/add_submit"
+        android:gravity="center_horizontal"
+        android:backgroundTint="#2196F3"
+        android:text="Add"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/add_back"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2196F3"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
